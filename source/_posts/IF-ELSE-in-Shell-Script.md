@@ -4,9 +4,9 @@ categories: [Linux, shell]
 date: 2021-01-19 20:49:04
 ---
 
-# If else in shell script
+## If else in shell script
 
-## Basic Syntax
+### Basic Syntax
 
 ```
 if [  ]; then
@@ -18,7 +18,7 @@ fi
 
  <!-- more -->
 
-## Number Comparison
+### Number Comparison
 
 ```
 [ $a -eq $b ]    equal
@@ -29,7 +29,7 @@ fi
 [ $a -le $b ]    less than or equal
 ```
 
-## String Comparison
+### String Comparison
 
 ```
 str="abc"
@@ -71,7 +71,7 @@ else
 # False
 ```
 
-## File Comparison Operators
+### File Comparison Operators
 
 ```
 -e filename  if filename exists，return true
