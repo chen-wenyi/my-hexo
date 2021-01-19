@@ -1,10 +1,9 @@
 ---
-title: shell cmd cheatsheet
+title: Shell CMD Cheat Sheet
 date: 2021-01-15 22:31:37
 tags:
-  - shell
-  - Linux
-categories: [cheatsheet, shell]
+  - cheatsheet
+categories: [Linux, shell]
 ---
 
 `lsof -i:8080` check process related to port 8080

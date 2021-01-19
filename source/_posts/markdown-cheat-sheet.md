@@ -1,8 +1,9 @@
 ---
 title: Markdown Cheat Sheet
 date: 2021-01-16 02:29:29
-categories: [cheatsheet, markdown]
 tags:
+  - cheatsheet
+categories:
   - markdown
 ---
 
