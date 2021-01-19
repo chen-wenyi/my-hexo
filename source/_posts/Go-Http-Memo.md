@@ -2,27 +2,33 @@
 title: Go Http Memo
 date: 2019-09-12 14:40:06
 categories:
-- Go
+  - Go
 tags:
-- Http
+  - Http
 ---
 
 # start a tcp server on port 8080
+
 ```
 http.ListenAndServe(":8080", nil) // addr, handler
 ```
 
+ <!-- more -->
+
 # router and handler
+
 ```
 http.HandleFunc("/file/upload", handler.UploadHandler)
 ```
 
 # http redirect
+
 ```
 http.Redirect(w, r, "/file/upload/suc", http.StatusFound)
 ```
 
 # Get querystring from url
+
 ```
 func GetFileMetaHandler(w http.ResponseWriter, r *http.Request) {
 	r.ParseForm()
@@ -35,8 +41,8 @@ func GetFileMetaHandler(w http.ResponseWriter, r *http.Request) {
 ```
 
 # Header Set for file download
+
 ```
 w.Header().Set("Content-Disposition", "attachment;filename=\""+fileMeta.FileName+"\"")
 
 ```
-

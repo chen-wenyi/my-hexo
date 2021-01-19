@@ -3,11 +3,14 @@ title: shell cmd cheatsheet
 date: 2021-01-15 22:31:37
 tags:
   - shell
-categories:
   - Linux
+categories: [cheatsheet, shell]
 ---
 
 `lsof -i:8080` check process related to port 8080
+
+ <!-- more -->
+
 `kill -9 [PID]` kill process with PID
 `curl -v [url]` http client
 `tar -cvf target.tar target` pack a tar

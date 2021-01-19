@@ -2,11 +2,14 @@
 title: Koa config
 date: 2019-09-29 14:01:32
 categories:
-- Koa
+  - Node
 tags:
-- Koa
+  - Koa
 ---
 
+config a koa server
+
+ <!-- more -->
 
 ```
 const Koa = require('koa')

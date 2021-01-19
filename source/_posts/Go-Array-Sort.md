@@ -2,13 +2,16 @@
 title: Go Slice Sort
 date: 2019-09-12 15:54:26
 tags:
-- Go
-- Sort
+  - Go
+  - Sort
 ---
 
 # Customized Slice Sort
 
-We need to implement 3 functions for slice sorting. They are: 
+We need to implement 3 functions for slice sorting. They are:
+
+ <!-- more -->
+
 `Len()` length of slice
 `Swap()` swap two elem
 `Less()` > is DESC and < is ASC
@@ -39,6 +42,7 @@ func (fMetaSlice byUploadTime) Less(i int, j int) bool {
 ```
 
 Then we can do the sort
+
 ```
 sort.Sort(byUploadTime(fileMetaSlice))
 ```
